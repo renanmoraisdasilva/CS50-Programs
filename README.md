@@ -4,7 +4,7 @@ CS50 is an renowned online Computer Science course from Harvard.
 
 This is a repository where all of my problem sets and assignments programs are located. 
 
-Descriptions of each program are presented below.
+Descriptions of each program are presented below:
 ________________________________________________________________________________________________________________________________
 
 1 hello.c - Simple program asks name from the user and prints: Hello, ...
