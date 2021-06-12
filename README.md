@@ -29,6 +29,16 @@ ________________________________________________________________________________
 
 1.0 runoff.c - There’s another kind of voting system known as a ranked-choice voting system. In a ranked-choice system, voters can vote for more than one candidate. Instead of just voting for their top choice, they can rank the candidates in order of preference. Here, each voter, in addition to specifying their first preference candidate, has also indicated their second and third choices. And now, what was previously a tied election could now have a winner! 
 
+1.1 Program to apply grayscale, reflection, blur, or edge detection filters to an images.
+The function grayscale takes an image and turns it into a black-and-white version of the same image.
+The reflect function takes an image and reflects it horizontally.
+The blur function takes an image and turns it into a box-blurred version of the same image.
+The edges function takes an image and highlights the edges between objects, according to the Sobel operator.
+
+1.2 recover.c - Program accepts one command-line argument, the name of a forensic image from which to recover JPEGs.
+If the program is not executed with exactly one command-line argument, it reminds the user of correct usage, and main returns 1.
+If the forensic image cannot be opened for reading, the program informs the user as much, and main returns 1.
+The files generated each are named ###.jpg, where ### is a three-digit decimal number, starting with 000 for the first image and counting up.
 
 Thank you,
 
